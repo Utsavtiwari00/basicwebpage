@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(D:\webdev\01\Roboto-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto-Regular;
+}
+    
+
+.hero{
+    background-color: #1F2937;
+    align-items: center;
+
+    
+    justify-content: space-between;
+    
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#header{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+#links a{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+ 
+}
+#links a:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+#links ul{
+    list-style-type: none;
+}
+#links ul li {
+    display: inline-block;
+    margin-right:20px ;
+   
+}
+#headertext{
+    font-size:56px ;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+#headersubtext{
+    font-size: 18px;
+    color: #e5e7ebc0;
+}
+#signupbutton button{
+    color:white;
+    background-color:#3882f6;
+    text-align: center;
+    size: 40px;
+    padding:15px;
+    border: none;
+    border-radius: 5px;
+    
+}
+#imageholder{
+    height: 40px;
+    
+    margin: 60px 40px ;
+    background-color: #e5e7eb8e;
+    padding: 100px;
+    color:white;
+   
+    
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.herocontent{
+    padding: 10px;
+}
+#signupbutton button:hover{
+    cursor: grab;
+    background-color:#3881f684
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+#box{
+    border:5px solid #3882f6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    padding-top: 50px;
+}
+#heading{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding-left: 500px;
+    
+}
